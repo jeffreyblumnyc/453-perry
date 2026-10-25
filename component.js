@@ -18,7 +18,7 @@ class Component extends DCLogic {
       caption: p[2] + ' → ' + p[3] + ' · ' + p[4],
       beforeAlt: p[4] + ', existing, photo ' + p[2],
       afterAlt: p[4] + ', proposed render ' + p[3],
-      sliderLabel: 'Compare before and after: ' + p[4],
+      sliderLabel: 'Compare current and proposed: ' + p[4],
       move: function (e) {
         var v = Number(e && e.target ? e.target.value : 50);
         var next = Object.assign({}, self.state.pos); next[key] = v;
