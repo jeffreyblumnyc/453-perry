@@ -48,7 +48,9 @@ class Component extends DCLogic {
       { id: 'second', code: 'A-302', label: 'Second floor', desc: 'The unfinished attic becomes a primary suite: white-painted rafters, a run of skylights, low oak built-ins along the knee walls, wide oak boards and an en-suite bath in pale stone.',
         imgs: [['005119495f5856849500466fcf4373c0',1],['875bf48db6f060212a054b1d094b1ab0',1],['a16eb5429186adc1bee5ccbe4c26b535',1]] },
       { id: 'basement', code: 'A-401', label: 'Basement', desc: 'A walk-out lower level: oak floors, built-ins, a lounge and games room, with sliders onto the lawn.',
-        imgs: [['ad0faa9e43bcabc2a8dcd446c70ed6d3',0],['8716e84cce0e76b107977639ffc7f796',0],['8fc68fe6b8616c666ed9ee744aa135d4',0]] }
+        imgs: [['ad0faa9e43bcabc2a8dcd446c70ed6d3',0],['8716e84cce0e76b107977639ffc7f796',0],['8fc68fe6b8616c666ed9ee744aa135d4',0]] },
+      { id: 'pool', code: 'A-501', label: 'Natural pool · wish list', desc: 'Outside the remodel scope — a bucket-list idea. The overgrown woodland edge beside the play area becomes a natural swimming pool: planted regeneration margins with iris and loosestrife, water lilies, a glass-clear swim zone with submerged stone steps, boulders, stepping stones and a small timber deck.',
+        imgs: [['7a8baff6bc1918876a8b98772fa28c0a',0],['806466f52fbe157d7243b31308596967',0],['28f87bbe4e8b3584e52eef04c09c1044',1],['57ffae5454c984d9c8ec0f9762e71e0e',1],['cdf0b470eee972afdf756dd342160560',0],['b9baa6661f41c85435400b8ec29325ab',0]] }
     ];
     var self = this;
     var cur = this.state.cat;
@@ -103,7 +105,10 @@ class Component extends DCLogic {
       ['db2a717f79bbf0a27fc469de266b3abb','a16eb5429186adc1bee5ccbe4c26b535','IMG_2776','A-302.03','Attic → primary suite, dormer side',1],
       ['9477e09182b94685ca0b7a623a6d7a4e','ad0faa9e43bcabc2a8dcd446c70ed6d3','IMG_2788','A-401.01','Basement → family room',0],
       ['fa819a635550179ba314c6e297bd26c2','8716e84cce0e76b107977639ffc7f796','IMG_2791','A-401.02','Basement → walk-out',0],
-      ['3aa8d61f261b155d69bf9450120d646f','8fc68fe6b8616c666ed9ee744aa135d4','IMG_2790','A-401.03','Basement → lounge',0]
+      ['3aa8d61f261b155d69bf9450120d646f','8fc68fe6b8616c666ed9ee744aa135d4','IMG_2790','A-401.03','Basement → lounge',0],
+      ['cad962b24903017f6a5aaf19a9852b9a','7a8baff6bc1918876a8b98772fa28c0a','Wish list','A-501.01','Woodland edge → natural pool',0],
+      ['6bc2a32587078f2e7dfba108688cdf11','806466f52fbe157d7243b31308596967','Wish list','A-501.02','Undergrowth → swim steps',0],
+      ['40a30f1559860adb51c818d41abce241','cdf0b470eee972afdf756dd342160560','Wish list','A-501.05','Pines → pool beside the play area',0]
     ];
     var feat = this.pairVals(['ea97b0a5c600d545f1a4e58c79032a21','871a049a859aae283a2f9eed7eab37cc','IMG_2839','A-103.11','Garden gable',0], 'feat');
     var pairs = PAIRS.map(function (p, i) { return self.pairVals(p, 'p' + i); });
