@@ -40,7 +40,7 @@ class Component extends DCLogic {
       { id: 'studio', code: 'A-202', label: 'Studio · Music garage', desc: 'The loft above the garage: a vaulted studio with a gable picture window, wall-to-wall records and books, and a glass-railed open stair.',
         imgs: [['f7fb6621e63cbd2cb3f311fe56f32ae0',0],['fd8096f49918520a42dc2111b1675e91',0],['bceadf3c52f40e168735d5b013f460a7',1]] },
       { id: 'breezeway', code: 'A-203', label: 'Breezeway · Mudroom', desc: 'The glazed link between house and garage: built-in storage, a bench, concrete floor and a cedar ceiling. Also seen from outside in the side and rear views.',
-        imgs: [['2f8d6b7d952b9ec34932b50a83d75fed',1],['c261d0d78dd31430c0f036669a3cefbb',1,'A-101.02'],['943fd310ac7596551b2817663c347162',1,'A-103.05'],['e7cd252dde8b54f72b432bf06b4ccbe1',1,'A-103.07']] },
+        imgs: [['2f8d6b7d952b9ec34932b50a83d75fed',1],['c261d0d78dd31430c0f036669a3cefbb',1,'A-101.02'],['e7cd252dde8b54f72b432bf06b4ccbe1',1,'A-103.07']] },
       { id: 'interior', code: 'A-301', label: 'Interior ground floor', desc: 'A floating oak stair in a glass enclosure; dining framed by corner glazing onto the woods.',
         imgs: [['39a19f026229d048fc39cd964988af9b',0],['88838293f3c813a4c4f85e69067c4cc6',0]] },
       { id: 'bath', code: 'A-303', label: 'Bathrooms · ground floor', desc: 'Both ground-floor bathrooms in one material: large-format pale stone tile on floors and wainscot, white plaster above, integrated stone sinks and matte-black fittings. Primary bath: floating double vanity, toilet niche and a glass-fronted walk-in shower. Hall bath: tiled tub with a glass screen.',
