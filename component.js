@@ -71,6 +71,7 @@ class Component extends DCLogic {
     var PAIRS = [
       ['6d93b898bda83883fcf39a81147f182c','10bb8e11ce19e77485a928ea5e5bf2a2','IMG_2847','A-101.07','Front, from the drive',0],
       ['c4e8911f1ad0eadbda0aaff35530b797','f5db4a6ef1f9ddbfe63e044d924a5291','IMG_2845','A-101.01','Front porch',0],
+      ['03cbc7eedd469c9fc3bc583679a196d0','c9dbef0cf72354a3e691a2fa2c97d5a7','Front porch','A-101.04','Front door and porch',0],
       ['3e27b0df7109074120cb6c6226c31707','0dc3d3bc410e914475e4791139c456d6','IMG_2846','A-101.08','Porch rail and planting',0],
       ['ac4f6f696892107885eaae449373b358','c261d0d78dd31430c0f036669a3cefbb','IMG_2867','A-101.02','Side passage',1],
       ['fe15a4793e01598fa132c74d32029e2d','80a1be4a88da708f018facb29e13f280','IMG_2848','A-101.05','Garage, from the walk',0],
