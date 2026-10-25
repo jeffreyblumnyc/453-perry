@@ -30,7 +30,7 @@ class Component extends DCLogic {
     var B = '/_blob/';
     var cats = [
       { id: 'front', code: 'A-101', label: 'Front view', desc: 'Arrival and porch: charcoal vertical siding, a cedar-lined soffit with recessed lights, black-framed glazing, cable-rail decking and tall grasses.',
-        imgs: [['f5db4a6ef1f9ddbfe63e044d924a5291',0],['c261d0d78dd31430c0f036669a3cefbb',1],['4cb3336c291d69cc7259b6fed31785af',0],['c9dbef0cf72354a3e691a2fa2c97d5a7',0],['80a1be4a88da708f018facb29e13f280',0],['4ba9a1d544ddb9dce3212cc1db753cc4',0],['10bb8e11ce19e77485a928ea5e5bf2a2',0],['0dc3d3bc410e914475e4791139c456d6',0],['dd61436e9bec9181ab52a106831c4cfc',1],['1dc0a798746c8b91b09908fceb95d4b1',1]] },
+        imgs: [['f5db4a6ef1f9ddbfe63e044d924a5291',0],['c261d0d78dd31430c0f036669a3cefbb',1],['4cb3336c291d69cc7259b6fed31785af',0],['c9dbef0cf72354a3e691a2fa2c97d5a7',0],['80a1be4a88da708f018facb29e13f280',0],['4ba9a1d544ddb9dce3212cc1db753cc4',0],['10bb8e11ce19e77485a928ea5e5bf2a2',0],['0dc3d3bc410e914475e4791139c456d6',0],['dd61436e9bec9181ab52a106831c4cfc',1],['1dc0a798746c8b91b09908fceb95d4b1',1],['4b1756d022218e0d3b7f24472975c98f',1,'A-101.11']] },
       { id: 'side', code: 'A-102', label: 'Side view', desc: 'Quiet gable ends with few, deliberate openings; the detached garage reads as a sibling volume.',
         imgs: [['8629b858beec65d57921a1facfa890cd',0],['9660154f087ff52bde89d91b9df82baf',1]] },
       { id: 'back', code: 'A-103', label: 'Back view', desc: 'The garden façade: a full-height glazed gable, a glass-box bump-out, the long deck and lawn stepping down behind dry-stone terraces.',
@@ -72,6 +72,7 @@ class Component extends DCLogic {
     // [before blob, after blob, photo, render ref, label, tall]
     var PAIRS = [
       ['6d93b898bda83883fcf39a81147f182c','10bb8e11ce19e77485a928ea5e5bf2a2','IMG_2847','A-101.07','Front, from the drive',0],
+      ['4f75c3577a47ab89b12cfc6aee6e6b58','4b1756d022218e0d3b7f24472975c98f','Driveway','A-101.11','Arrival up the drive',1],
       ['c4e8911f1ad0eadbda0aaff35530b797','f5db4a6ef1f9ddbfe63e044d924a5291','IMG_2845','A-101.01','Front porch',0],
       ['03cbc7eedd469c9fc3bc583679a196d0','c9dbef0cf72354a3e691a2fa2c97d5a7','Front porch','A-101.04','Front door and porch',0],
       ['3e27b0df7109074120cb6c6226c31707','0dc3d3bc410e914475e4791139c456d6','IMG_2846','A-101.08','Porch rail and planting',0],
