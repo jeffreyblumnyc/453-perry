@@ -15,29 +15,45 @@ a{color:#8A4E1F}a:hover{color:#1D1E1C}
 .night{background-color:#1D1E1C;background-image:linear-gradient(rgba(237,238,233,.07) 1px,transparent 1px),linear-gradient(90deg,rgba(237,238,233,.07) 1px,transparent 1px);background-size:24px 24px}
 .hatch{background-image:repeating-linear-gradient(45deg,rgba(29,30,28,.18) 0 1px,transparent 1px 7px)}
 .tab{cursor:pointer}
-.tab:focus-visible,.navlink:focus-visible{outline:2px solid #8A4E1F;outline-offset:2px}
+.tab:focus-visible,.navlink:focus-visible,.brand:focus-visible{outline:2px solid #8A4E1F;outline-offset:2px}
+.topbar{position:sticky;top:0;z-index:20;background:#EDEEE9;border-bottom:1px solid #1D1E1C}
+.topbar-in{max-width:1360px;margin:0 auto;padding:0 32px;min-height:56px;box-sizing:border-box;display:flex;align-items:center;justify-content:space-between;gap:32px}
+.brand{font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:#1D1E1C;text-decoration:none;white-space:nowrap}
+.brand:hover{color:#1D1E1C}
+.brand-sub{color:#5A5C57;margin-left:12px}
+.topnav{display:flex;gap:24px;font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.08em;text-transform:uppercase}
+.navlink{display:inline-flex;align-items:center;gap:6px;padding:20px 0;color:#1D1E1C;text-decoration:none;white-space:nowrap}
+.navlink:hover{color:#8A4E1F}
+.navlink .num{color:#8A4E1F}
+section[id]{scroll-margin-top:64px}
+@media (max-width:1100px){
+.topbar-in{flex-direction:column;align-items:stretch;gap:0;padding:0}
+.brand{padding:14px 20px 10px}
+.topnav{gap:8px;padding:0 20px 12px;overflow-x:auto;scroll-snap-type:x proximity;scrollbar-width:none;-webkit-mask-image:linear-gradient(90deg,#000 88%,transparent);mask-image:linear-gradient(90deg,#000 88%,transparent)}
+.topnav::-webkit-scrollbar{display:none}
+.navlink{padding:0 14px;min-height:40px;border:1px solid rgba(29,30,28,.35);border-radius:999px;background:#F4F4F0;scroll-snap-align:start}
+.navlink:last-child{margin-right:40px}
+section[id]{scroll-margin-top:92px}
+}
 </style>
 <style>html{scroll-behavior:smooth}img{max-width:100%}</style>
 </head>
 <body>
 
 
-<div class="paper" style="min-height: 100vh; color: #1D1E1C; font-family: 'Archivo', system-ui, sans-serif;">
+<div id="top" class="paper" style="min-height: 100vh; color: #1D1E1C; font-family: 'Archivo', system-ui, sans-serif;">
 
 <!-- ============ TOP BAR ============ -->
-<header style="border-bottom: 1px solid #1D1E1C; background: #EDEEE9;">
-<div style="max-width: 1360px; margin: 0 auto; padding: 14px 32px; display: flex; flex-wrap: wrap; gap: 12px 32px; align-items: center; justify-content: space-between;">
-<div style="display: flex; gap: 14px; align-items: baseline; flex-wrap: wrap;">
-<span style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase;">453 Perry Rd</span>
-<span style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: #5A5C57;">Swan Lake, NY 12783</span>
-</div>
-<nav aria-label="Sections" style="display: flex; flex-wrap: wrap; gap: 4px 22px; font-family: 'IBM Plex Mono', monospace; font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase;">
-<a class="navlink" href="#site" style="color: #1D1E1C; text-decoration: none; padding: 12px 0;">01 Land</a>
-<a class="navlink" href="#location" style="color: #1D1E1C; text-decoration: none; padding: 12px 0;">02 Location</a>
-<a class="navlink" href="#status" style="color: #1D1E1C; text-decoration: none; padding: 12px 0;">03 Current status</a>
-<a class="navlink" href="#beforeafter" style="color: #1D1E1C; text-decoration: none; padding: 12px 0;">04 Before / After</a>
-<a class="navlink" href="#moodboard" style="color: #1D1E1C; text-decoration: none; padding: 12px 0;">05 Moodboard</a>
-<a class="navlink" href="#materials" style="color: #1D1E1C; text-decoration: none; padding: 12px 0;">06 Materials</a>
+<header class="topbar">
+<div class="topbar-in">
+<a class="brand" href="#top">453 Perry Rd<span class="brand-sub">Swan Lake, NY 12783</span></a>
+<nav class="topnav" aria-label="Sections">
+<a class="navlink" href="#site"><span class="num">01</span>Land</a>
+<a class="navlink" href="#location"><span class="num">02</span>Location</a>
+<a class="navlink" href="#status"><span class="num">03</span>Today</a>
+<a class="navlink" href="#beforeafter"><span class="num">04</span>Before / After</a>
+<a class="navlink" href="#moodboard"><span class="num">05</span>Moodboard</a>
+<a class="navlink" href="#materials"><span class="num">06</span>Materials</a>
 </nav>
 </div>
 </header>
