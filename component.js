@@ -95,6 +95,7 @@ class Component extends DCLogic {
       ['4c157a4172121b18831f9a4cc801009c','fd8096f49918520a42dc2111b1675e91','IMG_2778','A-202.02','Garage loft → studio, gable',0],
       ['d162a8ef73bd4b23028215310cb24e4b','f7fb6621e63cbd2cb3f311fe56f32ae0','IMG_2780','A-202.01','Garage loft → studio, records',0],
       ['a3a702c8af4935ecba8e5f9f01b185e5','2f8d6b7d952b9ec34932b50a83d75fed','IMG_2853','A-203.01','Breezeway → mudroom',1],
+      ['ae4ee39e1e7f36d81e59327589b58b05','39a19f026229d048fc39cd964988af9b','Living room','A-301.01','Record wall → glass stair',0],
       ['23d8fea929b50e723221a7296a254cca','88838293f3c813a4c4f85e69067c4cc6','IMG_2861','A-301.02','Dining',0],
       ['4a22a5f88d5e89bde6f9195fd18ef395','80896f73c5c4e54dc0f5f68f86b338d9','Primary bath','A-303.01','Pedestal sinks → floating double vanity',1],
       ['1b5865b722c47a03a05765c92e046a61','4990f6228dfac77a6afa39640ce302d6','Primary bath','A-303.02','Toilet niche',1],
